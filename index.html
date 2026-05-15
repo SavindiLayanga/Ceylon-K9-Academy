@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#020202" />
+  <noscript>
+    <style>
+      .scroll-reveal,
+      .scroll-animate,
+      .hero {
+        opacity: 1 !important;
+        transform: none !important;
+        filter: none !important;
+      }
+    </style>
+  </noscript>
+  <meta name="description" content="Ceylon K9 Academy — professional dog training in Sri Lanka. Smart training for happy dogs." />
+  <title>Ceylon K9 Academy | Professional Dog Training</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preload" href="assets/hero-k9.png" as="image" />
+  <link rel="stylesheet" href="css/styles.css?v=40" />
+</head>
+<body>
+  <div class="page-backdrop" aria-hidden="true">
+    <div class="live-wallpaper">
+      <div class="live-wallpaper__layer live-wallpaper__layer--a"></div>
+      <div class="live-wallpaper__layer live-wallpaper__layer--b"></div>
+      <div class="live-wallpaper__layer live-wallpaper__layer--c"></div>
+      <div class="live-wallpaper__grain"></div>
+    </div>
+    <div class="bokeh-layer">
+      <span class="bokeh-spark"></span><span class="bokeh-spark"></span><span class="bokeh-spark"></span><span class="bokeh-spark"></span><span class="bokeh-spark"></span>
+      <span class="bokeh-spark"></span><span class="bokeh-spark"></span><span class="bokeh-spark"></span><span class="bokeh-spark"></span><span class="bokeh-spark"></span>
+      <span class="bokeh-spark"></span><span class="bokeh-spark"></span><span class="bokeh-spark"></span><span class="bokeh-spark"></span><span class="bokeh-spark"></span>
+      <span class="bokeh-spark"></span><span class="bokeh-spark"></span><span class="bokeh-spark"></span><span class="bokeh-spark"></span><span class="bokeh-spark"></span>
+      <span class="bokeh-spark"></span><span class="bokeh-spark"></span><span class="bokeh-spark"></span><span class="bokeh-spark"></span><span class="bokeh-spark"></span>
+      <span class="bokeh-spark"></span><span class="bokeh-spark"></span><span class="bokeh-spark"></span><span class="bokeh-spark"></span><span class="bokeh-spark"></span>
+      <span class="bokeh-spark"></span><span class="bokeh-spark"></span><span class="bokeh-spark"></span><span class="bokeh-spark"></span><span class="bokeh-spark"></span>
+      <span class="bokeh-spark"></span><span class="bokeh-spark"></span><span class="bokeh-spark"></span><span class="bokeh-spark"></span><span class="bokeh-spark"></span>
+    </div>
+  </div>
+
+  <div class="page">
+    <div class="scroll-progress" aria-hidden="true"><span class="scroll-progress__bar"></span></div>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="#top">
+          <span class="brand__wordmark">
+            <span class="brand__name">
+              <span class="brand__silver">Ceylon</span><span class="brand__gold"> K9 </span><span class="brand__silver">Academy</span>
+            </span>
+          </span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+          <span class="nav-toggle__bar"></span>
+          <span class="visually-hidden">Menu</span>
+        </button>
+        <nav class="site-nav" id="site-nav" data-nav>
+          <ul class="site-nav__list">
+            <li><a href="#top">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero__photo">
+        <div class="hero__photo-glow"></div>
+        <img
+          class="hero__photo-img"
+          src="assets/hero-k9.png"
+          alt="K9 handler with a trained Rottweiler in a sunlit forest"
+          width="1024"
+          height="682"
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
+        />
+      </div>
+      <div class="hero__media" aria-hidden="true">
+        <video class="hero__video" data-hero-video muted loop playsinline preload="metadata">
+          <source src="assets/hero.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="hero__scrim" aria-hidden="true"></div>
+      <div class="container hero__layout">
+        <div class="hero__content">
+          <p class="eyebrow">Sri Lanka</p>
+          <h1 class="hero__title">Smart training for happy dogs</h1>
+          <p class="hero__lead">Professional, balanced training with clear structure — from puppies to advanced obedience and real-world reliability.</p>
+          <ul class="hero__pills" role="list">
+            <li>Home visits</li>
+            <li>Obedience</li>
+            <li>Protection basics</li>
+            <li>Puppy foundations</li>
+          </ul>
+          <div class="hero__actions">
+            <a class="btn btn--gold" href="#contact" data-book-package="general">Book training</a>
+            <a class="btn btn--ghost" href="https://wa.me/94762502279" target="_blank" rel="noopener noreferrer">WhatsApp us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section scroll-reveal" id="services">
+      <div class="container">
+        <header class="section__head">
+          <h2 class="section__title">Our services</h2>
+          <p class="section__sub">Focused programs built around your dog, your goals, and your lifestyle.</p>
+        </header>
+        <div class="grid grid--services">
+          <article class="card card--soft">
+            <h3 class="card__title">Puppy training</h3>
+            <p class="card__text">House manners, socialization, bite inhibition, and confidence building.</p>
+            <ul class="checklist">
+              <li>Foundations &amp; routines</li>
+              <li>Leash introduction</li>
+              <li>Family coaching</li>
+            </ul>
+          </article>
+          <article class="card card--soft">
+            <h3 class="card__title">Obedience</h3>
+            <p class="card__text">Clear communication, impulse control, and reliable commands in distraction.</p>
+            <ul class="checklist">
+              <li>On &amp; off-leash progression</li>
+              <li>Recall &amp; place work</li>
+              <li>Public manners</li>
+            </ul>
+          </article>
+          <article class="card card--soft">
+            <h3 class="card__title">Behavior adjustment</h3>
+            <p class="card__text">Calm leadership and structured plans for reactivity, anxiety, or guarding.</p>
+            <ul class="checklist">
+              <li>Assessment-led plan</li>
+              <li>Humane techniques</li>
+              <li>Follow-up support</li>
+            </ul>
+          </article>
+          <article class="card card--soft">
+            <h3 class="card__title">Board &amp; train</h3>
+            <p class="card__text">Immersive training with handover sessions so skills transfer home cleanly.</p>
+            <ul class="checklist">
+              <li>Skill installation</li>
+              <li>Video updates</li>
+              <li>Owner lessons</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt scroll-reveal" id="about">
+      <div class="container split">
+        <div class="split__media">
+          <figure class="frame">
+            <img
+              class="frame__img"
+              src="assets/about-sunset.png"
+              alt="Trainer and dog silhouetted at sunset, touching paws"
+              width="736"
+              height="489"
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
+        </div>
+        <div class="split__content">
+          <h2 class="section__title section__title--left">Why Ceylon K9 Academy</h2>
+          <p class="prose">We train with consistency, clarity, and respect for the dog in front of us. You get a calm process, measurable progress, and guidance you can actually use day to day.</p>
+          <div class="two-col">
+            <ul class="checklist">
+              <li>Structured sessions</li>
+              <li>Real-world proofing</li>
+              <li>Transparent expectations</li>
+            </ul>
+            <ul class="checklist">
+              <li>Islandwide availability</li>
+              <li>Ethical handling</li>
+              <li>Aftercare check-ins</li>
+            </ul>
+          </div>
+          <dl class="stats">
+            <div class="stats__item">
+              <dt class="stats__value">100+</dt>
+              <dd class="stats__label">Dogs trained</dd>
+            </div>
+            <div class="stats__item">
+              <dt class="stats__value">Islandwide</dt>
+              <dd class="stats__label">Service coverage</dd>
+            </div>
+            <div class="stats__item">
+              <dt class="stats__value">5+ yrs</dt>
+              <dd class="stats__label">Experience</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="section scroll-reveal" id="packages">
+      <div class="container">
+        <header class="section__head">
+          <h2 class="section__title">Training packages</h2>
+          <p class="section__sub">Pick a starting point — we will tailor the plan after the first assessment.</p>
+        </header>
+        <div class="grid grid--pricing">
+          <article class="card card--price">
+            <h3 class="card__title">Basic</h3>
+            <p class="price"><span class="price__currency">Rs.</span> 12,000</p>
+            <ul class="checklist">
+              <li>Single focus area</li>
+              <li>3 sessions</li>
+              <li>Written homework</li>
+            </ul>
+            <a class="btn btn--ghost btn--block" href="#contact" data-book-package="basic">Book now</a>
+          </article>
+          <article class="card card--price card--featured">
+            <p class="badge">Most popular</p>
+            <h3 class="card__title">Standard</h3>
+            <p class="price"><span class="price__currency">Rs.</span> 18,000</p>
+            <ul class="checklist">
+              <li>Broader skill stack</li>
+              <li>6 sessions</li>
+              <li>Distraction training</li>
+            </ul>
+            <a class="btn btn--gold btn--block" href="#contact" data-book-package="standard">Book now</a>
+          </article>
+          <article class="card card--price">
+            <h3 class="card__title">Premium</h3>
+            <p class="price"><span class="price__currency">Rs.</span> 32,000</p>
+            <ul class="checklist">
+              <li>Advanced goals</li>
+              <li>10 sessions</li>
+              <li>Priority scheduling</li>
+            </ul>
+            <a class="btn btn--ghost btn--block" href="#contact" data-book-package="premium">Book now</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt scroll-reveal" id="testimonials">
+      <div class="container">
+        <header class="section__head">
+          <h2 class="section__title">What clients say</h2>
+        </header>
+        <div class="grid grid--quotes">
+          <figure class="quote card card--soft">
+            <blockquote>Clear, patient, and practical. Our pup finally settles when guests arrive.</blockquote>
+            <figcaption class="quote__meta"><span class="quote__name">Nethmi P.</span><span class="quote__role">Colombo</span></figcaption>
+          </figure>
+          <figure class="quote card card--soft">
+            <blockquote>Professional from day one. The handover notes made it easy for our whole family.</blockquote>
+            <figcaption class="quote__meta"><span class="quote__name">Roshan T.</span><span class="quote__role">Kandy</span></figcaption>
+          </figure>
+          <figure class="quote card card--soft">
+            <blockquote>We saw progress early, but the real win was consistency — the training actually stuck.</blockquote>
+            <figcaption class="quote__meta"><span class="quote__name">Amaya L.</span><span class="quote__role">Galle</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section scroll-reveal" id="gallery">
+      <div class="container">
+        <header class="section__head">
+          <h2 class="section__title">Training moments</h2>
+          <p class="section__sub">A glimpse of sessions, structure, and calm teamwork.</p>
+        </header>
+        <div class="gallery">
+          <figure class="gallery__cell">
+            <img class="gallery__img" src="assets/gallery/gallery-01.png" alt="Trainer with Ceylon K9 Academy branded shirt holding a Rottweiler puppy" width="800" height="1000" loading="lazy" decoding="async" />
+          </figure>
+          <figure class="gallery__cell">
+            <img class="gallery__img" src="assets/gallery/gallery-02.png" alt="Trainer seated with a German Shepherd on the training field at night" width="800" height="1000" loading="lazy" decoding="async" />
+          </figure>
+          <figure class="gallery__cell">
+            <img class="gallery__img" src="assets/gallery/gallery-03.png" alt="Trainer holding a large dog on the green training turf" width="800" height="1000" loading="lazy" decoding="async" />
+          </figure>
+          <figure class="gallery__cell">
+            <img class="gallery__img" src="assets/gallery/gallery-04.png" alt="Trainer kneeling with a Rottweiler outdoors at night" width="800" height="1000" loading="lazy" decoding="async" />
+          </figure>
+          <figure class="gallery__cell">
+            <img class="gallery__img" src="assets/gallery/gallery-05.png" alt="Trainer standing with a German Shepherd in profile at night" width="800" height="1000" loading="lazy" decoding="async" />
+          </figure>
+          <figure class="gallery__cell">
+            <img class="gallery__img" src="assets/gallery/gallery-06.png" alt="Trainer hugging a German Shepherd on the training lawn" width="800" height="1000" loading="lazy" decoding="async" />
+          </figure>
+          <figure class="gallery__cell">
+            <img class="gallery__img" src="assets/gallery/gallery-07.png" alt="Trainer holding a happy Pomeranian over the shoulder" width="800" height="1000" loading="lazy" decoding="async" />
+          </figure>
+          <figure class="gallery__cell">
+            <img class="gallery__img" src="assets/gallery/gallery-08.png" alt="Trainer sitting with a dog on shoulders at the academy turf" width="800" height="1000" loading="lazy" decoding="async" />
+          </figure>
+        </div>
+        <p class="section__foot"><a class="btn btn--ghost" href="#contact" data-book-package="gallery">Request full gallery</a></p>
+      </div>
+    </section>
+
+    <section class="cta-strip scroll-reveal" id="contact">
+      <div class="container contact">
+        <div class="contact__intro">
+          <h2 class="cta-strip__title">Ready for a calmer, more reliable dog?</h2>
+          <p class="cta-strip__text">Tell us your dog’s age, breed (or mix), and the top issue you want solved. We will reply by phone or WhatsApp.</p>
+          <div class="cta-strip__actions">
+            <a class="btn btn--gold" href="https://wa.me/94762502279" target="_blank" rel="noopener noreferrer" data-external>Message on WhatsApp</a>
+            <a class="btn btn--ghost" href="mailto:ceylonk9academy@yahoo.com" data-external>Email us</a>
+          </div>
+        </div>
+        <form class="contact-form" id="inquiry-form" data-inquiry-form novalidate>
+          <input type="hidden" name="source" value="contact-form" data-inquiry-source />
+          <div class="contact-form__grid">
+            <label class="field">
+              <span class="field__label">Your name</span>
+              <input class="field__input" type="text" name="name" autocomplete="name" required />
+            </label>
+            <label class="field">
+              <span class="field__label">Phone</span>
+              <input class="field__input" type="tel" name="phone" autocomplete="tel" required placeholder="+94 76 250 2279" />
+            </label>
+            <label class="field">
+              <span class="field__label">Email <span class="field__optional">(optional)</span></span>
+              <input class="field__input" type="email" name="email" autocomplete="email" />
+            </label>
+            <label class="field">
+              <span class="field__label">Package</span>
+              <select class="field__input field__input--select" name="package" data-inquiry-package>
+                <option value="general">General inquiry</option>
+                <option value="basic">Basic — Rs. 12,000</option>
+                <option value="standard">Standard — Rs. 18,000</option>
+                <option value="premium">Premium — Rs. 32,000</option>
+                <option value="gallery">Gallery / more photos</option>
+              </select>
+            </label>
+          </div>
+          <label class="field field--full">
+            <span class="field__label">Message</span>
+            <textarea class="field__input field__input--area" name="message" rows="4" required placeholder="Dog age, breed, and what you want help with…"></textarea>
+          </label>
+          <div class="contact-form__foot">
+            <button class="btn btn--gold" type="submit" data-inquiry-submit>Send inquiry</button>
+            <p class="form-status" data-form-status hidden role="status" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer scroll-reveal">
+    <div class="container site-footer__grid">
+      <div class="site-footer__brand">
+        <p class="brand__wordmark brand__wordmark--footer">
+          <span class="brand__name">
+            <span class="brand__silver">Ceylon</span><span class="brand__gold"> K9 </span><span class="brand__silver">Academy</span>
+          </span>
+        </p>
+        <p class="muted">Premium dog training with disciplined structure and humane methods.</p>
+      </div>
+      <div>
+        <h3 class="site-footer__heading">Quick links</h3>
+        <ul class="site-footer__links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="site-footer__heading">Contact</h3>
+        <ul class="site-footer__links">
+          <li><span class="muted">Phone:</span> <a href="tel:+94762502279">+94 76 250 2279</a></li>
+          <li><span class="muted">Email:</span> <a href="mailto:ceylonk9academy@yahoo.com">ceylonk9academy@yahoo.com</a></li>
+          <li><span class="muted">Hours:</span> Mon–Sat, 9:00–18:00</li>
+        </ul>
+      </div>
+    </div>
+    <p class="site-footer__legal">&copy; <span data-year></span> Ceylon K9 Academy. All rights reserved.</p>
+  </footer>
+
+  <a class="fab-wa" href="https://wa.me/94762502279" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.5 12.2c0 4.5-3.7 8.2-8.2 8.2-1.4 0-2.8-.4-4-1.1L3 21l1.8-5.1c-.8-1.3-1.2-2.8-1.2-4.4 0-4.5 3.7-8.2 8.2-8.2s8.3 3.7 8.3 8.2zm-8.2-7.4c-4 0-7.3 3.3-7.3 7.3 0 1.6.5 3.1 1.4 4.4l-.9 2.6 2.7-.9c1.2.8 2.7 1.3 4.2 1.3 4 0 7.3-3.3 7.3-7.3S16.3 4.8 12.3 4.8zm4.3 10.3c-.2.5-1.1 1-1.5 1-.4 0-.8.2-2.6-.8-2.2-.9-3.6-3-3.7-3.1-.1-.2-.9-1.2-.9-2.3 0-1.1.6-1.7.8-1.9.2-.2.5-.3.7-.3.2 0 .4 0 .6.1.2.1.7.7.8.9.1.2.2.3.3.5.1.2.1.4 0 .6-.1.2-.2.4-.3.5-.1.2-.3.4-.4.5-.1.1-.3.3-.1.5.2.3.9 1.4 1.9 2.3 1.3 1.2 2.4 1.6 2.8 1.8.3.2.5.2.7.1.2-.1.8-.4.9-.8.2-.4.2-.7.3-.8.1-.1.3-.2.5-.1.2.1 1.4.7 1.7.8.3.2.5.3.6.5.1.2.1 1-.2 1.5z"/></svg>
+  </a>
+
+  <script src="js/main.js?v=17" defer></script>
+  </div>
+</body>
+</html>
